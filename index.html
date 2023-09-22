@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+<!-- main css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Hau's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+</head>
+<body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <!-- logo -->
+                <div class="navbar__logo">
+                    <img src="./img/logo.svg" alt="website logo">
+                </div>
+                <!-- links -->
+                <ul class="navbar__links">
+                    <li class="navbar__link"><a href="#works">Work</a></li>
+                    <li class="navbar__link"><a href="#things">About</a></li>
+                    <li class="navbar__link"><a href="#works">Resume</a></li>
+                    <a href="#footer"><button class="navbar__btn">Contact</button></a>            
+                </ul>
+                <!-- menu button -->
+                <div class="navbar__icons">
+                    <div class="navbar__icon"></div>
+                </div>
+                
+            </nav>
+            
+
+        </div>
+    </header>
+    <!-- banner -->
+    <section id="banner">
+        <div class="container">
+            <!-- img -->
+            <div class="banner__img">
+                <img src="./img/banner-img.png" alt="illustration of women"/>
+            </div>
+            <!-- heading -->
+            <div class="banner__heading">
+                <h1>Hello, I'm Hau Pham</h1>
+                <p> I have been a student at Can Tho University since 2020. Currently, I am majoring in Data Communications and Computer Networks at Can Tho University. This major includes training knowledge about big data algorithms and architectures, distributed and parallel databases, computer networks, web development and cybersecurity.</p>
+                <a href="#"><button class="banner__btn">View More</button></a>
+                <div class="banner__socials">
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- things -->
+    <section id="things">
+        <div class="container">
+            <!-- decoration -->
+            <div class="things__dec">
+                <img src="./img/things-dec-l.png" alt="illustration of leaf">
+            </div> 
+             <!-- decoration -->
+             <div class="things__dec">
+                <img src="./img/things-dec-r.png" alt="illustration of leaf"> 
+            </div> 
+            <!-- heading -->
+            <h2>Things I Do</h2>
+            <!-- item 1 -->
+            <div class="things__item">
+                <!-- img -->
+                <img src="./img/things-item-1.png" alt="illustration of women">
+                <!-- text -->
+                <div class="things__item--heading">
+                    <h3>Education</h3>
+                    <p>Student of Data Communications and Computer Networks<br>
+                        Course: 46</p>
+                </div>
+            </div>
+             <!-- item 2 -->
+             <div class="things__item">
+                <!-- img -->
+                <img src="./img/things-item-2.png" alt="illustration of women">
+                <!-- text -->
+                <div class="things__item--heading">
+                    <h3>Experience</h3>
+                    <p></p>
+                    <ul>
+                        <li>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident pariatur cum perferendis fuga ipsa quibusdam, nemo odio, beatae doloribus animi iure, commodi odit iusto totam? </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+             <!-- item 3 -->
+             <div class="things__item">
+                <!-- img -->
+                <img src="./img/things-item-3.png" alt="illustration of computer">
+                <!-- text -->
+                <div class="things__item--heading">
+                    <h3>Projects</h3>                    
+                    <p> </p>
+                    <ul>
+                        <li><a href>Birthday invitation</a></li>
+                        <li><a href>Annie's burger form</a></li>    
+                        <li><a href>Portfolio</a></li>
+                    </ul>
+                    <p> </p>
+                    <h3 id="publications">Publications</h3>
+                    <p> </p>
+                    <ul>
+                        <li>
+                            <p>Phan Thượng Cang, Trần Thị Tố Quyên; MỘT ĐỀ XUẤT THUẬT TOÁN FUZZY JOIN TRONG XỬ LÝ DỮ LIỆU LỚN; Nhà xuất bản Khoa học tự nhiên và Công nghệ, FAIR, 2022</p>
+                        </li>
+                        <li>
+                          <p>Anh-Cang Phan, Thuong-Cang Phan, Thanh-Ngoan Trieu, Thi-To-Quyen Tran: A Theoretical and Experimental Comparison of Large-Scale Join Algorithms in Spark. SN Comput. Sci. 2(5): 352 (2021)</p>
+                            
+                        </li>
+                        <li>
+                            <p>Thi-To-Quyen Tran: Filters based fuzzy big joins. (Jointures floues massives basé aux filtres). University of Rennes 1, France, 2020/p>    
+                           
+                        </li>
+                        <li>
+                            <p>	Thi-To-Quyen Tran, Thuong-Cang Phan, Anne Laurent, Laurent d'Orazio: Optimization for Large-Scale Fuzzy Joins Using Fuzzy Filters in MapReduce. FUZZ-IEEE 2020: 1-8</p>                            
+                        </li>
+                        <li>
+                            <p>Thuong-Cang Phan, Anh-Cang Phan, Thi-To-Quyen Tran, Ngoan-Thanh Trieu: Efficient Processing of Recursive Joins on Large-Scale Datasets in Spark. ICCSAMA 2019: 391-402</p>                         
+                        </li>
+                        <li>
+                            <p>Thi-To-Quyen Tran, Thuong-Cang Phan, Anne Laurent, Laurent d'Orazio: Improving Hamming distance-based fuzzy join in MapReduce using Bloom Filters. FUZZ-IEEE 2018: 1-7</p>
+                        </li>
+                        <li>
+                            <p>Thuong-Cang Phan, Thi-To-Quyen Tran et Laurent D'Orazio. Filtres pour jointures et requêtes récursives en MapReduce. Journées Bases de Données Avancées (BDA), Futuroscope, Poitiers – France, 2016</p>
+                        </li>
+                        <li>
+                            <p>Phan Thượng Cang, Trần Thị Tố Quyên, Phan Anh Cang. Tối ưu hoá join đệ quy trên tập dữ liệu lớn trong môi trường Spark. Fundamental and Applied IT Research (FAIR’09), Can Tho, Vietnam, 2016</p>
+                        </li>
+                    </ul>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- works -->
+    <section id="works">
+        <div class="container">
+            <!-- decoration -->
+            <div class="works__dec">
+                <img src="./img/work-dec.png" alt="illustration of leaf">
+            </div>
+            <div class="works__dec">
+                <img src="./img/work-dec.png" alt="illustration of leaf">
+            </div>
+            <!-- heading -->
+            <h2>Research topics</h2>
+            <!-- img -->
+            <div class="works__img">
+                <div class="works__img--single">
+                    <img src="./img/network_computer.png" alt="network_computer">
+                </div>
+                <div class="works__img--single">
+                    <img src="./img/big-data.png" alt="big-data">
+                </div>
+                <div class="works__img--single">
+                    <img src="./img/network_security.png" alt="network_security">
+                </div>
+                <div class="works__img--single">
+                    <img src="./img/web_developer.png" alt="web_developer">
+                </div>
+            </div>
+            <!-- btn -->
+            <div class="works__btn">               
+                <a href="#publications"><button>View Publications</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- footer  -->
+    <footer id="footer">
+        <div class="container">
+            <!-- decoration -->
+            <div class="footer__dec">
+                <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+            </div>
+            <!-- img -->
+            <div class="footer__img">
+                <img src="./img/footer-img.png" alt="illustration of women">
+            </div>
+            <!-- heading -->
+            <div class="footer__heading">
+                <h1>Ready to make something amazing</h1>
+                <!-- contact  -->
+                <div class="footer__contact">
+                    <a href="tell:901234567">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>90-123-4567</p>
+                    </a>
+                    <a href="mailto:info@me.com">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@me.com</p>
+                    </a>
+                </div>
+                <div class="banner__socials">
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/d5b93fa359.js" crossorigin="anonymous"></script>
+    <!-- main js -->
+        <script src="./js/main.js"></script>
+</body>
+</html>
